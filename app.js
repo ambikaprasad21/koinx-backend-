@@ -46,7 +46,7 @@ const getCryptoInfo = async () => {
 
 cron.schedule("0 */2 * * *", () => {
   getCryptoInfo();
-  console.log("running a task every one minutes");
+  console.log("running a task every 2 hours");
 });
 
 // TASK 2

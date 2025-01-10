@@ -8,6 +8,11 @@ Features are:
 - Get the stats for a particular crypto coin.
 - Get the deviation for previous 100 records for a particular crypto coin.
 
+**API endpoints**
+- /stats/:coin
+- /deviation/:coin
+coin parameter can bitcoin, matic-network or ethereum
+
 **Steps for setup**
 
 Create a `config.env` file. In this provide value for the respective fields:
